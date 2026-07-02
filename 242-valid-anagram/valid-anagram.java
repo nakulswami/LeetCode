@@ -1,31 +1,20 @@
 class Solution {
     public boolean isAnagram(String s, String t) {
-        if (s.length() != t.length()) {
+        if (s.length() != t.length())
             return false;
+
+        int[] arr = new int[26];
+
+        for (int i = 0; i < s.length(); i++) {
+            arr[s.charAt(i) - 'a']++;
+            arr[t.charAt(i) - 'a']--;
         }
 
-        Map<Character, Integer> map = new HashMap<>();
-
-        // Count characters in s
-        for (char ch : s.toCharArray()) {
-            map.put(ch, map.getOrDefault(ch, 0) + 1);
-        }
-
-        // Decrease count using t
-        for (char ch : t.toCharArray()) {
-            if (!map.containsKey(ch)) {
+        for (int check : arr) {
+            if (check != 0)
                 return false;
-            }
-
-            int count = map.get(ch) - 1;
-
-            if (count == 0) {
-                map.remove(ch);
-            } else {
-                map.put(ch, count);
-            }
         }
 
-        return map.isEmpty();
+        return true;
     }
 }
