@@ -9,8 +9,8 @@ class Solution {
             count++;
         }
         if(sb.toString().contains(b)) return count;
-        sb.append(a);
         count++;
+        sb.append(a);
 
         if(sb.toString().contains(b)) return count;
         return -1;
