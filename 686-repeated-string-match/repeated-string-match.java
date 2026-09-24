@@ -4,14 +4,17 @@ class Solution {
 
         int count = 1;
 
-        while(sb.length() < b.length()){
+        while (sb.length() < b.length()) {
             sb.append(a);
             count++;
         }
-        if(sb.toString().contains(b)) return count;
+
+        if (sb.toString().contains(b))
+            return count;
         sb.append(a);
 
-        if(sb.toString().contains(b)) return count + 1;
+        if (sb.toString().contains(b))
+            return count + 1;
         return -1;
     }
 }
