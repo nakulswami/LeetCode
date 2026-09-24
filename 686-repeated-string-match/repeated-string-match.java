@@ -10,8 +10,9 @@ class Solution {
         }
         if(sb.toString().contains(b)) return count;
         sb.append(a);
+        count++;
 
-        if(sb.toString().contains(b)) return count + 1;
+        if(sb.toString().contains(b)) return count;
         return -1;
     }
 }
