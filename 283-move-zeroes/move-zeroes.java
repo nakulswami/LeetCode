@@ -10,6 +10,5 @@ class Solution {
                 k++;
             }
         }
-        System.out.println(k);
     }
 }
