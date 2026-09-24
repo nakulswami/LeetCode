@@ -2,5 +2,5 @@
 
 Difficulty: Medium  
 Language: Java  
-Submitted: 2026-09-24T06:52:01.000Z  
+Submitted: 2026-09-24T06:52:18.000Z  
 LeetCode: https://leetcode.com/problems/repeated-string-match/
