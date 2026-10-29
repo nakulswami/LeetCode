@@ -2,5 +2,5 @@
 
 Difficulty: Easy  
 Language: Java  
-Submitted: 2026-04-06T06:26:42.000Z  
+Submitted: 2026-10-29T13:37:22.000Z  
 LeetCode: https://leetcode.com/problems/valid-parentheses/
