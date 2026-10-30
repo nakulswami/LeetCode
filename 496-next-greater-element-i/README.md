@@ -2,5 +2,5 @@
 
 Difficulty: Easy  
 Language: Java  
-Submitted: 2026-04-17T05:37:05.000Z  
+Submitted: 2026-10-30T04:22:48.000Z  
 LeetCode: https://leetcode.com/problems/next-greater-element-i/
