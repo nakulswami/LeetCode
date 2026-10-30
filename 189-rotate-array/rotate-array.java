@@ -7,8 +7,8 @@ class Solution {
             int j = (i + k) % n;
             ans[j] = nums[i];
         }
-
-        for(int i  = 0; i < n; i++){
+        
+        for(int i = 0; i < n; i++){
             nums[i] = ans[i];
         }
     }
