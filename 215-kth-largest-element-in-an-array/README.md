@@ -2,5 +2,5 @@
 
 Difficulty: Medium  
 Language: Java  
-Submitted: 2026-08-07T09:20:09.000Z  
+Submitted: 2026-10-30T06:42:55.000Z  
 LeetCode: https://leetcode.com/problems/kth-largest-element-in-an-array/
